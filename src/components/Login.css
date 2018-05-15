@@ -1,0 +1,72 @@
+.Login {
+    background: rgba(200, 200, 200, 0.8);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login .box {
+    background: white;
+    padding: 30px;
+    border: 1px solid silver;
+    width: 60%;
+    box-shadow: 2px 2px 5px black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+.Login .box input {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 1.2em;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid silver;
+    font-family: monospace;
+}
+.Login .box input:focus {
+    outline: none;
+}
+
+.Login .box button {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    font-size: 1.05em;
+    border: 0;
+    border-radius: 5px;
+}
+
+.Login .x {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    background: salmon;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    cursor: pointer;
+}
+
+.Login .error {
+    color: red;
+}
